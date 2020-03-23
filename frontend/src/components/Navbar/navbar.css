@@ -18,14 +18,14 @@ body {
     border: 1px solid #2abb9b;
     width: 100px;
     margin-top: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif  ;
     margin-right: 20px;
     font-weight: bolder;
 }
 
 .sing-in:hover {
     cursor: pointer;
-    background-color: #2abb1b;
+    background-color: #2bab9b;
 }
 
 .register {
