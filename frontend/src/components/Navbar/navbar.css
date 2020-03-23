@@ -1,0 +1,46 @@
+body {
+    background-color: #ffa751;
+}
+
+.mynavbar {
+    background-color: #ffa751;
+    height: 5rem;
+    text-align: end;
+    width: 80%;
+    margin: auto;
+}
+
+.sing-in {
+    color: white;
+    background-color: #2abb9b;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #2abb9b;
+    width: 100px;
+    margin-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+.sing-in:hover {
+    cursor: pointer;
+    background-color: #2abb1b;
+}
+
+.register {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid white;    
+    width: 100px;
+    margin-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 50px;
+}
+
+.register:hover {
+    cursor: pointer;
+    background-color: rgb(241, 237, 237);
+}
