@@ -1,23 +1,25 @@
 body {
-    background-color: #ffa751;
+    background-image: url("https://images.pexels.com/photos/616404/pexels-photo-616404.jpeg?cs=srgb&dl=carrots-food-fresh-freshness-616404.jpg&fm=jpg");  /* ne dohvaća mi sa path ... /images/main.jpeg */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .mynavbar {
-    background-color: #ffa751;
-    height: 5rem;
+    height: 115px;
     text-align: end;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .sing-in {
     color: white;
-    background-color: #2abb9b;
+    background-color: rgb(92, 211, 92);
     padding: 10px;
     border-radius: 25px;
     border: 1px solid #2abb9b;
     width: 100px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif  ;
     margin-right: 20px;
     font-weight: bolder;
@@ -28,6 +30,7 @@ body {
     background-color: #2bab9b;
 }
 
+
 .register {
     background-color: white;
     color: black;
@@ -35,7 +38,7 @@ body {
     border-radius: 25px;
     border: 1px solid white;    
     width: 100px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-right: 50px;
 }

@@ -1,11 +1,10 @@
 .welcomediv {
     height: 80vh;
-    background-color: #ffa751;
     text-align: center;
     padding-top: 50px;
 }
 
-img {
+.mylogo {
     height: 300px;
     width: 500px;
     margin: 0 auto;
@@ -16,4 +15,53 @@ img {
     font-size: xx-large;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.myrow {
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.list_btn {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 0 2px 17px 0 #e19f17;
+    height: 114.2px;
+    width: 114.2px;
+    text-align: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+
+.list_btn:hover {
+    height: 150px;
+    width: 150px;
+}
+
+.list_img {
+    margin-top: 5px;
+    height: 60px;
 }
